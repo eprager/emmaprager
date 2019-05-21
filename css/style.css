@@ -33,20 +33,6 @@ h2 {
   text-decoration: underline;
 }
 
-h3 {
-  text-align: center;
-	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
-	font-weight: 300;
-  font-size: large;
-}
-
-h5 {
-  text-align: center;
-	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
-	font-weight: 300;
-  font-size: large;
-}
-
 .navigation{
 	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 	font-weight: 300;
@@ -79,7 +65,7 @@ h5 {
   margin-right: 10%;
 } 
 
-.resume{
+.resume1{
   width: 40%;
   min-height: 100%;
   float: right;
@@ -87,6 +73,17 @@ h5 {
 	font-family: 'Poppins', sans-serif;  
   text-align: left;
   margin-right: 10%;
+}
+
+.resume{
+  width: 35%;
+  min-height: 100%;
+  float: left;
+  position: relative;
+	font-family: 'Poppins', sans-serif;  
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 10%
 }
 
 .map #map {
@@ -106,7 +103,8 @@ img {
 }
 
 #welcome {
-  width: 70%;
+  width: 100%;
+  height: auto;
 }
 
 .footer{
@@ -163,9 +161,7 @@ video {
 .icons {
   width: 50%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+  position: relative;
 }
 
 #welcome {
@@ -346,7 +342,68 @@ input[type=submit]:hover {
 
 .centercontent{
 	min-height: 100 px;
-	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+	font-family: 'Poppins', sans-serif;  
 	text-align: center;
 	font-size: large;
+}
+
+/*WELCOME PAGE****************************************************************/
+.front-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3498db;
+}
+
+.front-container:hover .overlay {
+  opacity: .7;
+}
+
+.front-container:hover .text {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 0%;
+  text-align: center;
+}
+
+#front-words {
+  font-size: 2.5em;
+}
+
+#front-quote {
+  color: white;
+}
+
+#front-nav a:link, #front-nav a:visited{
+	color: white;
+  text-decoration: none;
+  padding: 1px 12px;
+  text-align: center;
+  display: inline-block;
+}
+
+#front-nav a:hover, #front-nav a:active{
+  color:  white;
+  text-decoration: none;
+}
+
+#front-nav #currentPage{
+  color: white;
+  text-decoration: underline white;
 }
