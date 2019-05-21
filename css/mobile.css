@@ -30,6 +30,14 @@
     font-size: 100%;
   }
 
+  .resume1 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: 100%;
+  }
+
   .gallery {
     width: 90%;
     margin-left: 5%;
@@ -40,6 +48,41 @@
     font-size: small;
     border-radius: 4px;
     padding: 10px;
+  }
+
+  .text {
+    position: relative;
+    color: black;
+  }
+
+  #front-words {
+    font-size: 1em;
+  }
+  
+  #front-quote {
+    color: #3498db;
+  }
+  
+  #front-nav a:link, #front-nav a:visited{
+    color: #3498db;
+  }
+  
+  #front-nav a:hover, #front-nav a:active{
+    color:  #3498db;
+  }
+  
+  #front-nav #currentPage{
+    color: black;
+  }
+
+  #wrapper {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #map {
+    width: 170px;
+    height: 170px;
   }
 }
 
@@ -75,6 +118,14 @@
     font-size: 100%;
   }
 
+  .resume1 {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-size: 100%;
+  }
+
   .gallery {
     width: 90%;
     margin-left: 5%;
@@ -87,7 +138,40 @@
     padding: 10px;
   }
 
-  #welcome {
-    width: 464px;
+  #wrapper {
+    width: 400px;
+    height: 400px;
+  }
+  
+  #map {
+    width: 370px;
+    height: 370px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .text {
+    position: relative;
+    color: black;
+  }
+
+  #front-words {
+    font-size: 2em;
+  }
+  
+  #front-quote {
+    color: #3498db;
+  }
+  
+  #front-nav a:link, #front-nav a:visited{
+    color: #3498db;
+  }
+  
+  #front-nav a:hover, #front-nav a:active{
+    color:  #3498db;
+  }
+  
+  #front-nav #currentPage{
+    color: black;
   }
 }
