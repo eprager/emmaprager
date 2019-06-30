@@ -86,16 +86,6 @@ h2 {
   margin-left: 10%
 }
 
-.map #map {
-  height: 100%;
-}
-
-.map html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -132,6 +122,17 @@ hr {
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 65%;
+  height: auto;
+  position: relative;
+  font-family: 'Poppins', sans-serif;  
 }
 
 video {
