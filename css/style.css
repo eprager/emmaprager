@@ -20,6 +20,7 @@ a:hover, a:active {
 	font-size: large;
 	color: #3498db;
   text-align: center;
+  display: block;
 }
 
 h1 {
@@ -30,66 +31,73 @@ h1 {
 }
 
 h2 {
-  text-decoration: underline;
+  font-style: italic;
+}
+
+.brand {
+  width: 40%;
+  float: left;
+  position: relative;
+  text-align: left;
+
+  color: black;
 }
 
 .navigation{
-	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  width: 45%;
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  color: black;
 	font-weight: 300;
-  text-align: center;
+  text-align: right;
   font-size: small;
+
+  float: right;
+  position: relative;
+  margin-right: 15%;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation ul li {
+  display:inline;
 }
 
 .lefthalfcontent{
-  width: 38%;
+  width: 50%;
   min-height: 100%;
   float: left;
   position: relative;
-	font-family:'Poppins', sans-serif; 
-	text-align: right;
-  font-size: 2.5em;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 2%;
-  padding-top: 2%;
 }
 
 .righthalfcontent{
-  width: 40%;
+  float: right;
+  position: relative;
+  font-family:'Poppins', sans-serif; 
   min-height: 100%;
+
+  width: 45%;
+  margin-right: 15%;
+}
+
+.maincontent{
+  width: 75%;
   float: right;
   position: relative;
 	font-size: 1.6em;
 	font-family: 'Poppins', sans-serif;  
   text-align: left;
   margin-right: 10%;
+  color: black;
 } 
-
-.resume1{
-  width: 40%;
-  min-height: 100%;
-  float: right;
-  position: relative;
-	font-family: 'Poppins', sans-serif;  
-  text-align: left;
-  margin-right: 10%;
-}
-
-.resume{
-  width: 35%;
-  min-height: 100%;
-  float: left;
-  position: relative;
-	font-family: 'Poppins', sans-serif;  
-  text-align: left;
-  margin-right: 5%;
-  margin-left: 10%
-}
 
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 2%;
 }
 
 #welcome {
@@ -103,16 +111,6 @@ img {
 	text-align: center;
   font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
   position: relative;
-}
-
-.navigation ul {
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navigation ul li {
-  display:inline;
 }
 
 hr { 
@@ -129,7 +127,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 60%;
+  width: 100%;
   float: right;
   height: auto;
   position: relative;
@@ -138,7 +136,7 @@ hr {
 }
 
 .aboutimage {
-  width: 35%;
+  width: 80%;
   height: auto;
   float: left;
   position: relative;
@@ -176,9 +174,13 @@ video {
 }
 
 .icons {
-  width: 50%;
+  width: 20%;
   height: auto;
   position: relative;
+}
+
+#linkedin {
+  width: 50%;
 }
 
 #welcome {
@@ -314,49 +316,6 @@ label {
 	margin-left: 5%
 }
 
- /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  text-align: left;
-	width: 90%; 
-	margin: 0 auto 0 auto;
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-input[type=text]:focus {
-	border: 2px solid #555;
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: gray;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-	width: 50%;
-	border-radius: 5px;
-  background-color: lightblue;
-  padding: 20px;
-	margin: 0 auto 0 auto;
-	font-family: Helvetica;
-} 
-
 .centercontent{
 	min-height: 100 px;
 	font-family: 'Poppins', sans-serif;  
@@ -367,48 +326,17 @@ input[type=submit]:hover {
 /*WELCOME PAGE****************************************************************/
 .front-container {
   position: relative;
-  text-align: center;
-  color: white;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #3498db;
-}
-
-.front-container:hover .overlay {
-  opacity: .7;
-}
-
-.front-container:hover .text {
-  opacity: 1;
 }
 
 .text {
-  color: white;
-  position: absolute;
   top: 0%;
-  text-align: center;
 }
 
 #front-words {
   font-size: 2.5em;
 }
 
-#front-quote {
-  color: white;
-}
-
 #front-nav a:link, #front-nav a:visited{
-	color: white;
   text-decoration: none;
   padding: 1px 12px;
   text-align: center;
@@ -416,11 +344,11 @@ input[type=submit]:hover {
 }
 
 #front-nav a:hover, #front-nav a:active{
-  color:  white;
   text-decoration: none;
+  color: white;
 }
 
 #front-nav #currentPage{
-  color: white;
-  text-decoration: underline white;
+  text-decoration: underline black;
+  color: black;
 }
