@@ -21,6 +21,7 @@ a:hover, a:active {
 	color: #3498db;
   text-align: center;
   display: block;
+  padding-top: 50px;
 }
 
 h1 {
@@ -81,7 +82,7 @@ h2 {
   min-height: 100%;
 
   width: 45%;
-  margin-right: 15%;
+  margin-right: 5%;
 }
 
 .maincontent{
@@ -126,7 +127,7 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: justify;
   width: 100%;
   float: right;
   height: auto;
@@ -180,7 +181,8 @@ video {
 }
 
 #linkedin {
-  width: 50%;
+  float: right;
+  width: 30%;
 }
 
 #welcome {
