@@ -67,42 +67,8 @@ h2 {
   display:inline;
 }
 
-.lefthalfcontent{
-  width: 50%;
-  min-height: 100%;
-  float: left;
-  position: relative;
-  text-align: center;
-}
-
-.righthalfcontent{
-  float: right;
-  position: relative;
-  font-family:'Poppins', sans-serif; 
-  min-height: 100%;
-
-  width: 45%;
-  margin-right: 5%;
-}
-
-.maincontent{
-  width: 75%;
-  float: right;
-  position: relative;
-	font-size: 1.6em;
-	font-family: 'Poppins', sans-serif;  
-  text-align: left;
-  margin-right: 10%;
-  color: black;
-} 
-
 img {
   max-width: 100%;
-  height: auto;
-}
-
-#welcome {
-  width: 100%;
   height: auto;
 }
 
@@ -121,181 +87,6 @@ hr {
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-}
-
-.abouttext {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  width: 100%;
-  float: right;
-  height: auto;
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2em;  
-}
-
-.aboutimage {
-  width: 80%;
-  height: auto;
-  float: left;
-  position: relative;
-}
-
-.about {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto 0 auto;
-}
-
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-.gallery {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 65%;
-  height: auto;
-  color: white;
-  position: relative;
-}
-
-.polaroid {
-	border-radius: 2px;
-  background-color: black;
-  padding: 20px;
-  font-family:'Poppins', sans-serif;
-  margin-bottom: 20px;
-}
-
-.icons {
-  width: 20%;
-  height: auto;
-  position: relative;
-}
-
-#linkedin {
-  float: right;
-  width: 30%;
-}
-
-#welcome {
-  width: 100%;
-}
-
-/*Photo Slider--------------------------------------*/
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-#start {
-  display: block;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  background-color: black;
-  border-radius: 2px;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  text-align:center;
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 /*CONTACT FORM--------------------------------------*/
@@ -323,4 +114,10 @@ label {
 	font-family: 'Poppins', sans-serif;  
 	text-align: center;
 	font-size: large;
+}
+
+/*Photo Slides*/
+.gallery {
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
