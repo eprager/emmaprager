@@ -106,7 +106,7 @@ img {
   height: auto;
 }
 
-.footer{
+#foot {
 	clear: both;
 	color:  #3498db;
 	text-align: center;
@@ -323,34 +323,4 @@ label {
 	font-family: 'Poppins', sans-serif;  
 	text-align: center;
 	font-size: large;
-}
-
-/*WELCOME PAGE****************************************************************/
-.front-container {
-  position: relative;
-}
-
-.text {
-  top: 0%;
-}
-
-#front-words {
-  font-size: 2.5em;
-}
-
-#front-nav a:link, #front-nav a:visited{
-  text-decoration: none;
-  padding: 1px 12px;
-  text-align: center;
-  display: inline-block;
-}
-
-#front-nav a:hover, #front-nav a:active{
-  text-decoration: none;
-  color: white;
-}
-
-#front-nav #currentPage{
-  text-decoration: underline black;
-  color: black;
 }
