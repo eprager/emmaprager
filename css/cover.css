@@ -25,7 +25,6 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-
 /*
  * Base structure
  */
@@ -42,7 +41,6 @@ body {
 .cover-container {
   max-width: 42em;
 }
-
 
 /*
  * Header
