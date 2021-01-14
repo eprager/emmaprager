@@ -121,3 +121,9 @@ label {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+  top: 50%;
+  bottom: 0;
+}
