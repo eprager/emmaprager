@@ -1,29 +1,3 @@
-a:link, a:visited {
-	color: black;
-  text-decoration: none;
-  padding: 1px 12px;
-  text-align: center;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  color:  #3498db;
-  text-decoration: none;
-}
-
-#currentPage {
-  color: #3498db;
-}
-
-.quote{
-	font-family:'Bad Script', cursive;
-	font-size: large;
-	color: #3498db;
-  text-align: center;
-  display: block;
-  padding-top: 50px;
-}
-
 h1 {
   text-align: center;
 	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
@@ -35,41 +9,13 @@ h2 {
   font-style: italic;
 }
 
-.brand {
-  width: 40%;
-  float: left;
-  position: relative;
-  text-align: left;
-
-  color: black;
-}
-
-.navigation{
-  width: 45%;
-  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
-  color: black;
-	font-weight: 300;
-  text-align: right;
-  font-size: small;
-
-  float: right;
-  position: relative;
-  margin-right: 15%;
-}
-
-.navigation ul {
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navigation ul li {
-  display:inline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+.quote{
+	font-family:'Bad Script', cursive;
+	font-size: large;
+	color: #3498db;
+  text-align: center;
+  display: block;
+  padding-top: 50px;
 }
 
 #foot {
@@ -89,33 +35,6 @@ hr {
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
 
-/*CONTACT FORM--------------------------------------*/
-a:link, a:visited {
-	color: black;
-  text-decoration: none;
-  padding: 1px 12px;
-  text-align: center;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  color: gray;
-  text-decoration: none;
-}
-
-label {
-  display: block;
-  float: left;
-	margin-left: 5%
-}
-
-.centercontent{
-	min-height: 100 px;
-	font-family: 'Poppins', sans-serif;  
-	text-align: center;
-	font-size: large;
-}
-
 /*Photo Slides--------------------------------------*/
 .gallery {
   -webkit-text-stroke-width: 0.5px;
@@ -126,4 +45,32 @@ label {
 .carousel-control-next{
   top: 50%;
   bottom: 0;
+}
+
+/*Header / Navigation--------------------------------------*/
+
+ .nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: black;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #3498db;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #3498db;
+  border-bottom-color: #3498db;
+}
+
+#navigation{
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 }
