@@ -48,13 +48,13 @@ footer {
 }
 
 /*Header / Navigation--------------------------------------*/
- .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
 .nav-masthead .nav-link:hover,

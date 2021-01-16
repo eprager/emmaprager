@@ -15,7 +15,6 @@ h2 {
 	color: #3498db;
   text-align: center;
   display: block;
-  padding-top: 50px;
 }
 
 #foot {
@@ -48,7 +47,6 @@ hr {
 }
 
 /*Header / Navigation--------------------------------------*/
-
  .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
