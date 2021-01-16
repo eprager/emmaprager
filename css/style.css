@@ -22,7 +22,10 @@ h2 {
 	color:  #3498db;
 	text-align: center;
   font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
-  position: relative;
+}
+
+#last {
+  margin-bottom: 15%;
 }
 
 hr { 
