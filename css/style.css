@@ -12,14 +12,14 @@ h2 {
 .quote{
 	font-family:'Bad Script', cursive;
 	font-size: large;
-	color: #3498db;
+	color: #0d6efd;
   text-align: center;
   display: block;
 }
 
 #foot {
 	clear: both;
-	color:  #3498db;
+	color:  #0d6efd;
 	text-align: center;
   font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 }
@@ -48,7 +48,7 @@ hr {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: #3498db;
+  border-bottom-color: #0d6efd;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -56,8 +56,8 @@ hr {
 }
 
 .nav-masthead .active {
-  color: #3498db;
-  border-bottom-color: #3498db;
+  color: #0d6efd;
+  border-bottom-color: #0d6efd;
 }
 
 #navigation{
